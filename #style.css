@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-lines: border-box;
+
+}
+
+.secao{
+   /* height: 600px;*/
+    padding: 50px;
+    width: 85vw;
+    /* mantem a proporcao com o vw ;*/
+    max-width: 1200px;
+    background-color: rgb(238, 132, 153);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* quebra os itens para as proximas linhas;*/
+    flex-wrap:wrap ;
+
+}
+
+.card{
+    height: 250px;
+    width: 150px;
+    background-color: aqua;
+    border: solid 4px black;
+
+
+}
+
+
